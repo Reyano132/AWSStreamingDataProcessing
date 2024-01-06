@@ -4,6 +4,7 @@ import time
 dataGenerator=Faker()
 epoch=str(time.time_ns())+"-"
 n=10
+time.sleep(60) #Wait for kinesis agent to start
 for j in range(30):
     with open("/tmp/data/"+epoch+str(j)+".log", "w") as file1:
         for i in range(n):
