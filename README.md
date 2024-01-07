@@ -5,3 +5,4 @@ Process Streaming data with Kinesis Data firehose and glue
 
 ![image](https://github.com/Reyano132/AWSStreamingDataProcessing/assets/42914404/c68e9d5a-f741-4dd5-8167-3a9495fe8764)
 
+Use the following terraform script to build the whole architecture: main.tf
